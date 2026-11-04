@@ -1,0 +1,2 @@
+# ryuzo-hypr
+hyprland dotfiles :)
