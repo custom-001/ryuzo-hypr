@@ -2,5 +2,5 @@
 ## Hyprland dotfiles I made :)
 
 ## Usage
-# Key bindings:
+### Key bindings:
 keybindings.bindings I will just add it lol
