@@ -32,6 +32,9 @@ hl.bind('XF86AudioLowerVolume',  hl.dsp.exec_cmd('wpctl set-volume @DEFAULT_AUDI
 hl.bind('XF86MonBrightnessUp',   hl.dsp.exec_cmd('brightnessctl set 5%+')) -- Raise brightness --
 hl.bind('XF86MonBrightnessDown', hl.dsp.exec_cmd('brightnessctl set 5%-')) -- Lower brightness --
 
+hl.bind('SUPER         + mouse:272', hl.dsp.window.drag())
+hl.bind('SUPER         + mouse:273', hl.dsp.window.resize())
+
 -- Workspaces
 for w = 1, 9 do
   hl.bind('ALT         + ' .. w, hl.dsp.focus({       workspace = w })) -- Focuses on a different workspace                  --

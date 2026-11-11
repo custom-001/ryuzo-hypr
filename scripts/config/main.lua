@@ -12,6 +12,10 @@ hl.config({
       active_border = 0xffe83436,
       inactive_border = 0x80e83436,
     },
+
+    snap = {
+      enabled = true,
+    },
   },
 
   input = {
