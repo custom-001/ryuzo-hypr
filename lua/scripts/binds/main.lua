@@ -1,7 +1,7 @@
 -- VARIABLES --
 -- Applications
-local terminal  = 'kitty'                -- terminal       --
-local browser   = 'firefox'              -- browser        --
+local terminal  = 'alacritty'            -- terminal       --
+local browser   = 'librewolf'            -- browser        --
 local filemgr   = 'nautilus'             -- file manager   --
 local editor    = 'gnome-text-editor'    -- text editor    --
 local systemmon = 'gnome-system-monitor' -- system monitor --
