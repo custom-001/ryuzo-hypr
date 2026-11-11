@@ -6,6 +6,7 @@ local filemgr   = 'nautilus'             -- file manager   --
 local editor    = 'gnome-text-editor'    -- text editor    --
 local systemmon = 'gnome-system-monitor' -- system monitor --
 local gamelib   = 'lutris'               -- game library   --
+local apps      = 'rofi -show drun'      -- app launcher   --
 
 -- BINDS --
 -- Session --
@@ -23,6 +24,7 @@ hl.bind('SUPER         + F',         hl.dsp.exec_cmd(filemgr))   -- File manager
 hl.bind('SUPER         + T',         hl.dsp.exec_cmd(editor))    -- Text editor    --
 hl.bind('SUPER         + M',         hl.dsp.exec_cmd(systemmon)) -- System monitor --
 hl.bind('SUPER         + G',         hl.dsp.exec_cmd(gamelib))   -- Game library   --
+hl.bind('SUPER         + Space',     hl.dsp.exec_cmd(apps))      -- App launcher   --
 
 -- Volume and brightness --
 hl.bind('XF86AudioRaiseVolume',  hl.dsp.exec_cmd('wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+')) -- Raise volume --
