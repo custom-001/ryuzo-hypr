@@ -29,11 +29,11 @@ hl.bind('SUPER         + Space',     hl.dsp.exec_cmd(apps))      -- App launcher
 -- Volume and brightness --
 hl.bind('XF86AudioRaiseVolume',  hl.dsp.exec_cmd('wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+')) -- Raise volume --
 hl.bind('XF86AudioLowerVolume',  hl.dsp.exec_cmd('wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-')) -- Lower volume --
-hl.bind('XF86MonBrightnessUp',   hl.dsp.exec_cmd('brightnessctl set 5%+')) -- Raise brightness --
-hl.bind('XF86MonBrightnessDown', hl.dsp.exec_cmd('brightnessctl set 5%-')) -- Lower brightness --
+hl.bind('XF86MonBrightnessUp',   hl.dsp.exec_cmd('brightnessctl set 10%+')) -- Raise brightness --
+hl.bind('XF86MonBrightnessDown', hl.dsp.exec_cmd('brightnessctl set 10%-')) -- Lower brightness --
 
-hl.bind('SUPER         + mouse:272', hl.dsp.window.drag())
-hl.bind('SUPER         + mouse:273', hl.dsp.window.resize())
+hl.bind('SUPER         + mouse:272', hl.dsp.window.drag())   -- Drag or move windows --
+hl.bind('SUPER         + mouse:273', hl.dsp.window.resize()) -- Resize windows       --
 
 -- Workspaces
 for w = 1, 9 do
